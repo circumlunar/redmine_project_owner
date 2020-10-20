@@ -4,7 +4,7 @@ Redmine project owner plugin
 About
 -----
 
-A plugin for Redmine[www.redmine.org] which allows an owner to be assigned to a project via project settings.
+A plugin for [Redmine](www.redmine.org) which allows an owner to be assigned to a project via project settings.
 Any active user can be an owner.
 
 Current version: 0.0.1
@@ -24,6 +24,12 @@ Usage
 ### Test
 
 `RAILS_ENV=test bundle exec rake redmine:plugins:test`
+
+Sources
+-------
+Main sources:
+1. Redmine official plugin [tutorial](https://www.redmine.org/projects/redmine/wiki/Plugin_Tutorial).
+2. Jens Krämer' redmine plugin [tutorial](https://jkraemer.net/2015/11/how-to-create-a-redmine-plugin).
 
 Licensing
 ---------

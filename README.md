@@ -4,7 +4,7 @@ Redmine project owner plugin
 About
 -----
 
-A plugin for Redmine[www.redmine.org] which allows an owner to be assigned to a project.
+A plugin for Redmine[www.redmine.org] which allows an owner to be assigned to a project via project settings.
 Any active user can be an owner.
 
 Current version: 0.0.1

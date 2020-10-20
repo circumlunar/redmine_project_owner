@@ -1,5 +1,4 @@
 require File.dirname(__FILE__) + '/../test_helper'
-require 'settings_controller'
 
 class ProjectsControllerTest < ActionController::TestCase
   fixtures :projects, :users
@@ -14,7 +13,7 @@ class ProjectsControllerTest < ActionController::TestCase
     @active_users = User.where(status: User::STATUS_ACTIVE)
   end
 
-  test '' do
+  test 'project settings page has an owner dropdown with active users' do
     get(:settings, :params => {:id => @project.id})
 
     assert_select 'select[name=?]', 'project[owner_id]', count: 1 do

@@ -1,6 +1,6 @@
 class AddProjectsOwner < ActiveRecord::Migration[5.2]
   def self.up
-    add_column :projects, :owner_id, :string
+    add_column :projects, :owner_id, :integer
   end
 
   def self.down
